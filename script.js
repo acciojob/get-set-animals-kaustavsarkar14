@@ -7,7 +7,7 @@ class Animal {
 		return this._species
 	}
 	 makeSound(sound){
-		console.log(sound)
+		console.log(`The ${this._species} makes a sound`)
 	}
 }
 
@@ -22,9 +22,7 @@ class Cat extends Animal {
 		this.makeSound('purr')
 	}
 }
-const c = new Cat("cat")
-// console.log(c.species)
-// c.purr()
+
 
 // Do not change the code below this line
 window.Animal = Animal;
